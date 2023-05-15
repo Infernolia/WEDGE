@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models">
+  <meta name="keywords" content="Object Detection, DALLE-2, Generative VLMs">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEDGE</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://abolimarathe.me/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+<!--       <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://abolimarathe.me/">Aboli Marathe</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.co.in/citations?user=Aa6m2TkAAAAJ&hl=en">Rahee Walambe</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.sitpune.edu.in/directormessage">Ketan Kotecha</a><sup>2</sup>,
+            </span>
+          
+           
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Carnegie Mellon University</span>
+            <span class="author-block"><sup>2</sup> Symbiosis Centre for Applied AI (SCAAI),  Symbiosis International University (SIU), India, Symbiosis Institute of Technology (SIT), Symbiosis International University (SIU), India</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Infernolia/WEDGE/tree/main/Code"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Results</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2305.07528"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Infernolia/WEDGE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Infernolia/WEDGE/tree/main/Dataset/WEDGE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+<title>Image Grid with Captions</title>
+   <style>
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+    
+    .image-grid .image-container {
+      position: relative;
+      height: 0;
+      padding-bottom: 100%;
+    }
+    
+    .image-grid img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .image-grid .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-grid">
+    <div class="image-container">
+      <img src="sample3.png" alt="Image 1">
+      <div class="caption">WEDGE Dataset Samples</div>
+    </div>
+    <div class="image-container">
+      <img src="sample1.png" alt="Image 2">
+      <div class="caption">Sim2Real inference for Object Detection</div>
+    </div>
+    <div class="image-container">
+      <img src="sample2.png" alt="Image 3">
+      <div class="caption">Sim2Real Image Similarity Distributions</div>
+    </div>
+    <div class="image-container">
+      <img src="sample.png" alt="Image 4">
+      <div class="caption">Anomalies and Interesting Examples of WEDGE</div>
+    </div>
+  </div>
+
+<!--   </div>
+</section> --> 
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{marathe2023wedge,
+      title={WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models}, 
+      author={Aboli Marathe and Deva Ramanan and Rahee Walambe and Ketan Kotecha},
+      year={2023},
+      eprint={2305.07528},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://github.com/Infernolia/WEDGE">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/Infernolia" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            For any queries, feedback or additional comments you can contact the corresponding author at abolim[at]cs[dot]cmu[dot]edu. <br><br><br>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website was built using the Nerfies Research Page template with <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website.
+         
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
