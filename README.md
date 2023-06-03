@@ -10,13 +10,13 @@ The dataset has been released for public use under the [CC BY-NC-SA 4.0](https:/
 
 If you find our dataset useful for your work, please cite: 
 ```
-@misc{marathe2023wedge,
-      title={WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models}, 
-      author={Aboli Marathe and Deva Ramanan and Rahee Walambe and Ketan Kotecha},
-      year={2023},
-      eprint={2305.07528},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Marathe_2023_CVPR,
+    author    = {Marathe, Aboli and Ramanan, Deva and Walambe, Rahee and Kotecha, Ketan},
+    title     = {WEDGE: A Multi-Weather Autonomous Driving Dataset Built From Generative Vision-Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {3317-3326}
 }
 ```
 
