@@ -1,4 +1,4 @@
-# Provided here are some benchmark models to experiment with. 
+# Provided here are some models to experiment with on WEDGE dataset. 
 
 Detection:
 https://drive.google.com/file/d/1ruaoIv-V4svwyWqcfUHt3uHVsUhqKxvU/view?usp=share_link
