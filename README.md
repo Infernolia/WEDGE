@@ -42,7 +42,8 @@ of this dataset (such as models trained on it or additional annotations that do 
 
 Dataset License: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-
+Pre-print available at: Marathe, Aboli, et al. "WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models." arXiv preprint arXiv:2305.07528 (2023).
+https://arxiv.org/abs/2305.07528.
 
  Website License : <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
  This website was created using the template given in source code for the [Nerfies website](https://nerfies.github.io). <br> <br> <br>
